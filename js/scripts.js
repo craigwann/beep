@@ -6,6 +6,11 @@ function dave() {
   var answer = "I'm sorry, Dave. I'm afraid I can't do that."
   return answer
 };
+
+
+
+
+
 // //-----------
 // function check(number) {
 //   return number >= 2;
@@ -34,10 +39,16 @@ $(document).ready(function() {
 //-----add to arrayOrig
     for (var i = 0; i <= input; i++) {
       arrayOrig.push(i);
-    }
+    };
+
     for (var i =0; i <= arrayOrig.legnth; i++) {
-      var first = arrayOrig.shift()
-      arrayFinal.push(first);
+      var first = arrayOrig[i];
+      alert("here");
+
+      arrayOrig.shift();
+      arrayFinal.push();
+
+
       // if (arrayOrig.indexOf(i) % 3 === 0 ) {
       //   arrayFinal.push(dave());
       // } else arrayFinal()
@@ -46,6 +57,6 @@ $(document).ready(function() {
 
 
 
-    $(".result").text(arrayFinal.join(" - "));
+    $(".result").text(arrayOrig.join(" - "));
   });
 });
