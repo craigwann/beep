@@ -1,25 +1,25 @@
-# Roman Numeral converter
+# Beep Boop
 
-#### A program that allows users to input a number and convert it to Roman numeral 6/7/18
+#### A program that allows users to input a number and returns a series of numbers from 0 to that number with exceptions 6/8/18
 
-#### By **Kevin Ahn and Craig Wann**
+#### By **Craig Wann**
 
 ## Description
 
-A website created with JavaScript and HTML where a user can submit a number and determine its Roman Numeral value.
+A program that allows users to input a number and returns a series of numbers from 0 to that number with exceptions.
 
 
-### Specs
+### Specifications
 | Spec | Input | Output |
 | :-------------     | :------------- | :------------- |
-| **simple numbers (ones)** | 1 | I |
-| **special numbers (ones)** | 5 | V |
-| **numbers before special numbers (ones)**| 4 | IV |
-| **2 digit numbers (tens)**| 11 | XI |
-| **3 digit numbers (hundreds)** | 111 | LXI |
-| **4 digit numbers (thousands)**| 1111 | MLXI |
-| **outside number range (over 3,999 or under 0)**| 4000 | That is not a valid number |
-| **strings that are not numbers**| afw | That is not a number |
+| **numbers from 0 to input Number** | 5 | 0, 1, ....5 |
+| **numbers divisible by 3 ** | 9 | "I'm sorry, Dave. I'm afraid I can't do that." |
+| **numbers that contain a 1**| 10 | "Boop!" |
+| **numbers that contain a 0**| 11 | "Beep!" |
+| ** ** | - | -- |
+| ** ** | - | -- |
+| ** ** | - | -- |
+| ** ** | - | -- |
 
 
 ## Setup/Installation Requirements
@@ -44,5 +44,4 @@ _Email no one with any questions, comments, or concerns._
 
 *{This software is licensed under the MIT license}*
 
-Copyright (c) 2017 **_{Kevin Ahn, Craig Wann}_**
-let's be honest...mostly Kevin
+Copyright (c) 2018 **_{Craig Wann}_**
