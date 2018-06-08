@@ -1,34 +1,15 @@
 //--------BACK END------------
 var arrayOrig = [];
+function test(someNumber) {
+  return someNumber * 2;
+}
 
-
-
-function dave() {
-  var answer = "I'm sorry, Dave. I'm afraid I can't do that."
-  return answer
+function dave(someNumber) {
+  if (someNumber % 3 === 0) {
+    var answer = "I'm sorry, Dave. I'm afraid I can't do that."
+    return answer
+  }
 };
-
-
-
-
-
-// //-----------
-// function check(number) {
-//   return number >= 2;
-// }
-// function myFunction() {
-//   testArray.find(check);
-// };
-//------------
-// function arrayOrig(number) {
-//   var number = 5;
-//   var count = [];
-//
-//   for (var i = 0; i <= number; i++) {
-//     count.push(i);
-//     return count;
-//   }
-// };
 
 
 //--------FRONT END------------
@@ -44,18 +25,14 @@ $(document).ready(function() {
     }
 
     for (var i =0; i <= arrayOrig.legnth; i++) {
-      var first = arrayOrig.shift();
+      arrayOrig.map(test);
 
-      console.log("here");
-
+      console.log(arrayOrig);
 
       // if (arrayOrig.indexOf(i) % 3 === 0 ) {
       //   arrayFinal.push(dave());
       // } else arrayFinal()
     };
-
-
-
 
     $(".result").text(arrayOrig.join(" - "));
   });
