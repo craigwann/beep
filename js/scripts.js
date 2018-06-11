@@ -23,14 +23,10 @@ $(document).ready(function() {
         return number
       };
     });
-    // for (var i =0; i <= arrayOrig.legnth; i++) {
-    //   arrayOrig.map(test);
 
-      // console.log(arrayOrig);
 
-      // if (arrayOrig.indexOf(i) % 3 === 0 ) {
-      //   arrayFinal.push(dave());
-      // } else arrayFinal()
+
+
       $(".result").text(dave.join(" - "));
 
     });
