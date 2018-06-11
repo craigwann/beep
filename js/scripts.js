@@ -18,12 +18,22 @@ $(document).ready(function() {
 
     var dave = arrayOrig.map(function(number){
       if (number % 3 == 0) {
-        return "dave"
+        return "I am sorry, Dave. I am afraid I cannot do that."
       } else {
         return number
       };
     });
 
+    var daveStr = dave.toString();
+    var boop = daveStr.slice();
+
+    for (var i =0; i<= boop.lenght; i++) {
+      if (boop.indexOf('1') > -1) { //true
+        return "Boop!"
+      } else {
+        return str
+      };
+    };
 
 
 
