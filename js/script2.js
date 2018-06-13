@@ -1,23 +1,28 @@
-var numbers = [0,1,2,3,4,5,6,7,8,9];
-var dave = numbers.map(function(number){
-  if (number % 3 == 0) {
-    return "dave"
-  } else {
-    return number
+function beep(input) {
+    var array = []
+    loop from 0 to input
+    if it divides by 3   "dave" push to array
+    else if it includes 1 "boop" push to array
+    else if it includes 0 "Beep" push to array
+    else just have number push to array
+    end loop
+  }
+
+
+function boopBeep(input) {
+  var array = []
+
+  }
+  var array = []
+  var input = 30
+  for (var i = 0; i <= input; i++){
+    if (i % 3 == 0) {
+      array.push("Dave")
+    } else if (i.toString().includes('1')) {
+      array.push("Boop!")
+    } else if (i.toString().includes('0')) {
+      array.push("Bp!")
+    } else {
+      array.push(i);
+    }
   };
-});
-
-var daveStr = dave.toString();
-var boop = daveStr.slice();
-
-boop.forEach(function(str) {
-  if (boop.indexOf('1') > -1) { //true
-    return "Boop!"
-  } else {
-    return str
-  };
-});
-
-
-var num = [0,1,2,3,4,5,6,7,8,9];
-num.toString().indexOf('5') > -1 //return true or false - contains or not
